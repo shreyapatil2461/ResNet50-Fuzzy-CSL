@@ -88,6 +88,15 @@ The performance of the proposed model was compared against several existing mode
 
 The proposed ResNet-50 with fuzzy cost-sensitive learning outperformed all other approaches, achieving the highest accuracy.  
 
+### **Classification Performance Metrics**
+The detailed classification performance for each category, including precision, recall, and F1-score, is presented in the following table:  
+ <p align="center">
+  <img src="Figure5.png" alt="Classification Performance Metrics" width="50%"/>
+</p>  
 
+The results show that the model performed consistently across all categories, significantly reducing false negatives in rare classes such as battery and metal.  
+
+### **Loss vs. Number of Epochs**
+The training and validation loss curves demonstrate stable and rapid convergence. The model achieved its peak performance after only three epochs, confirming efficient learning dynamics.  
 
 
