@@ -73,4 +73,12 @@ The overall structure of ResNet-50 can be summarized as follows:
 **- Global average pooling layer**: Reduces each feature map to a single value, preserving spatial information efficiently.  
 **- Fully connected layer**: Outputs final class scores. In this project, this layer is replaced to support ten waste categories. 
   
-The use of shortcut connections in residual blocks makes ResNet-50 highly effective at feature extraction, even in complex and imbalanced datasets. In this project, the ResNet-50 architecture is further enhanced by integrating fuzzy cost-sensitive learning to improve minority class detection and maintain high overall accuracy.
+The use of shortcut connections in residual blocks makes ResNet-50 highly effective at feature extraction, even in complex and imbalanced datasets. In this project, the ResNet-50 architecture is further enhanced by integrating fuzzy cost-sensitive learning to improve minority class detection and maintain high overall accuracy.  
+
+## **Experimental Results**
+This section presents the description of the imbalanced garbage classification dataset and the detailed results of the proposed model compared with other baseline approaches.  
+
+The integration of ResNet-50 with fuzzy logic delivered a strong accuracy of 97.06%, significantly improving upon existing models. The fuzzy logic component dynamically adjusted weights during training based on class distribution, effectively addressing class imbalance and improving minority class detection without sacrificing overall accuracy.  
+
+### **Accuracy Comparison**
+The performance of the proposed model was compared against several existing models, as summarized in the table below
