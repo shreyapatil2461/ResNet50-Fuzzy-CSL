@@ -50,6 +50,27 @@ Where:
 
 The model was trained using the Adam optimizer with an initial learning rate of 0.001, gradually reduced during training. Batch sizes of 32 or 64 were used, and dropout layers were added to avoid overfitting.
 
+## **Architecture**
 
+### **Architecture Of ResNet50 Model**
+<p align="center">
+ <img src="Figure3.png" alt="ResNet50 Architecture"/>
+</p>
 
+The ResNet-50 architecture is a deep convolutional neural network consisting of 50 layers, specifically designed to overcome challenges such as vanishing gradients and degraded performance in very deep networks.
 
+The main innovation in ResNet-50 is the introduction of residual learning using shortcut (skip) connections. Instead of learning an underlying mapping directly, residual blocks learn the residual function, allowing gradients to flow more easily during backpropagation. This facilitates the training of much deeper networks.
+
+The architecture is composed of a series of convolutional layers, batch normalization layers, ReLU activation functions, and identity shortcuts. ResNet-50 includes two main types of residual blocks:
+
+**1.Identity Blocks**: Used when the input and output dimensions are the same. The shortcut connection simply performs identity mapping and is added to the output of the stacked layers.  
+**2.Convolutional Blocks**: Used when the input and output dimensions differ. The shortcut connection includes a convolution operation to match dimensions before addition. 
+  
+The overall structure of ResNet-50 can be summarized as follows:  
+
+**- Initial layers**: A convolution layer with a large kernel (7×7), followed by batch normalization, ReLU activation, and a max pooling layer to reduce spatial dimensions.  
+**- Four stages of residual blocks**: Each stage consists of multiple residual blocks with increasing feature map depth and decreasing spatial resolution.  
+**- Global average pooling layer**: Reduces each feature map to a single value, preserving spatial information efficiently.  
+**- Fully connected layer**: Outputs final class scores. In this project, this layer is replaced to support ten waste categories. 
+  
+The use of shortcut connections in residual blocks makes ResNet-50 highly effective at feature extraction, even in complex and imbalanced datasets. In this project, the ResNet-50 architecture is further enhanced by integrating fuzzy cost-sensitive learning to improve minority class detection and maintain high overall accuracy.
