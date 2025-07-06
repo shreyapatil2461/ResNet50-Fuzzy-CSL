@@ -99,4 +99,8 @@ The results show that the model performed consistently across all categories, si
 ### **Loss vs. Number of Epochs**
 The training and validation loss curves demonstrate stable and rapid convergence. The model achieved its peak performance after only three epochs, confirming efficient learning dynamics.  
 
+ <p align="center">
+  <img src="Figure6.png" alt="Loss vs. Number of Epochs" width="50%"/>
+</p>  
 
+The dynamic weighting strategy prevented overfitting and improved the model's ability to generalize to new data. Additionally, augmentation techniques enhanced the model’s capability to handle variations in minority classes.  
