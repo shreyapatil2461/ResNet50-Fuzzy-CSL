@@ -8,10 +8,10 @@ This project proposes an optimized ResNet-50 architecture integrated with Fuzzy 
 The model is evaluated on a garbage classification dataset with ten waste categories, demonstrating a high accuracy of 97.06%, outperforming conventional methods such as standard CNNs and MobileNetV2. The proposed approach is highly practical for real-world applications such as automated waste sorting, environmental monitoring, and other scenarios where fair and accurate classification is crucial.
 
 ## **Objectives**
-**Improve the classification performance on imbalanced datasets.**
-**Minimize misclassification of minority classes.**
-**Demonstrate the effectiveness of integrating fuzzy logic into cost-sensitive learning.**
-**Provide a practical solution for real-world waste classification systems.**
+**Improve the classification performance on imbalanced datasets.**  
+**Minimize misclassification of minority classes.**  
+**Demonstrate the effectiveness of integrating fuzzy logic into cost-sensitive learning.**  
+**Provide a practical solution for real-world waste classification systems.**  
 
 ## **Dataset Description**
 The study focuses on addressing the unique challenges presented by an imbalanced garbage classification dataset. The dataset includes ten distinct categories: battery, biological, cardboard, clothes, glass, metal, paper, plastic, shoes, and trash.
