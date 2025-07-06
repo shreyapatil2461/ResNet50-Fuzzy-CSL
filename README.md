@@ -17,3 +17,4 @@ The model is evaluated on a garbage classification dataset with ten waste catego
 The study focuses on addressing the unique challenges presented by an imbalanced garbage classification dataset. The dataset includes ten distinct categories: battery, biological, cardboard, clothes, glass, metal, paper, plastic, shoes, and trash.
 
 The distribution of the dataset is highly uneven. Categories such as clothes contain a significantly larger number of images, while others such as metal and battery are underrepresented. This imbalance poses a challenge for the model to perform consistently well across all classes.
+![Description of image](Figure1.png)
