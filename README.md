@@ -104,3 +104,21 @@ The training and validation loss curves demonstrate stable and rapid convergence
 </p>  
 
 The dynamic weighting strategy prevented overfitting and improved the model's ability to generalize to new data. Additionally, augmentation techniques enhanced the model’s capability to handle variations in minority classes.  
+
+## **Conclusion**
+The integration of fuzzy cost-sensitive learning with the ResNet-50 architecture effectively addresses the challenges associated with class imbalance in image classification tasks. By dynamically adjusting misclassification penalties using fuzzy logic, the proposed model improved the recognition of minority classes while maintaining high overall accuracy.  
+
+The model achieved a significant accuracy of 97.06% on the imbalanced garbage classification dataset, outperforming baseline models such as MobileNetV2, CNN, and SIFT + SVM. The fuzzy penalty loss function played a crucial role in enhancing fairness across all categories, substantially reducing false negatives in underrepresented classes.  
+
+The proposed framework minimizes the need for extensive preprocessing and provides a scalable and practical solution suitable for real-world waste management applications. By ensuring balanced learning and robust feature extraction, the system demonstrates strong potential for deployment in resource-constrained and operational environments.  
+
+## **Future Work**
+Future directions include expanding the dataset to incorporate additional waste categories and exploring advanced data augmentation techniques to further improve model robustness.  
+
+Optimizing the model for real-time deployment on embedded or low-power edge devices will enhance practical usability in smart bins and automated waste sorting systems.  
+
+Additionally, implementing multi-label classification capabilities and collaborating with waste management experts can further increase the impact and applicability of the system for efficient and intelligent waste management solutions.  
+
+
+
+
