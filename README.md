@@ -82,3 +82,12 @@ The integration of ResNet-50 with fuzzy logic delivered a strong accuracy of 97.
 
 ### **Accuracy Comparison**
 The performance of the proposed model was compared against several existing models, as summarized in the table below
+ <p align="center">
+  <img src="Figure4.png" alt="Accurancy Comparison" width="50%"/>
+</p>  
+
+The proposed ResNet-50 with fuzzy cost-sensitive learning outperformed all other approaches, achieving the highest accuracy.  
+
+
+
+
